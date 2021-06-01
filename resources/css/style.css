@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    
+}
+
+
+
+/* Header */
+
+header .mobile-nav {
+    display: none;
+}
+
+header {
+    z-index: 2;
+    position: sticky;
+    background-color: white;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+header .content {
+    padding: 0 16px;     
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+header .logo {
+    text-transform: uppercase;
+    display: flex;
+}
+
+header .desktop {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+
+
+header .desktop ul {
+    display: flex;
+}
+
+
+header .desktop li {
+    list-style: none;
+    padding: 10px;
+}
+
+
+header .desktop a {
+    text-decoration: none;
+}
+
+
+ /* Main */
+
+
+ #main {
+    display: flex;
+    width: 100%;
+    background-color: rgb(160, 158, 158);
+    height: auto;
+    
+}
+
+.first-pic {
+    width: 60%;
+    height: auto;
+}
+
+.first-pic img {
+    width: 100%;
+    height: auto;
+    padding: 32px 24px;
+}
+
+#main .first-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(49, 49, 49);
+    
+    
+    
+}
+
+
+.first-text button {
+    background: rgb(49, 49, 49);
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    width: 50%;
+    
+   
+    
+}
+
+/* Second */
+
+#second {
+    display: flex;
+    
+   
+ 
+}
+
+.contain2 {
+    width: 60%;
+    border: 1px solid grey;
+    padding: 32px 24px;
+    height: auto;
+}
+
+.container-2 {
+    width: 80%;
+    
+}
+
+.second-text h1 {
+    padding-bottom: 24px;
+}
+
+.second-text h2 {
+    padding-bottom: 32px;
+}
+
+
+.second-pic {
+    padding-bottom: 32px;
+}
+
+.second-pic img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Third */
+
+.contain3 {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    width: 40%;
+    height: auto;
+
+    
+}
+
+.container-3 {
+    display: flex;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    
+}
+
+.third-text {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    line-height: 40px;
+}
+
+
+.third-pic {
+    width: 35%;
+    height: auto;
+    
+}
+
+.third-pic-mobile {
+    display: none;
+}
+
+
+.third-pic img {
+    padding: 24px;
+    width: 100%;
+    height: auto;
+}
+
+/* Fourth */
+
+#third {
+    background-color: rgb(160, 158, 158);
+    padding-bottom: 16px;
+}
+
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 32px 0 32px 0;
+    
+}
+
+
+.contain4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    
+}
+
+
+.description-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container-4 {
+    background-color: white;
+    margin: 16px;
+    padding-bottom: 24px;
+    
+    
+    
+}
+
+.container-4 .first-pic {
+    border: 1px solid red;
+    width: 100%;
+    height: auto;
+}
+
+.fourth-pic img {
+    width: 100%;
+    height: auto;
+  
+}
+
+
+/* Last */
+
+#last {
+    border-bottom: 1px solid lightgray;
+}
+
+.title-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 32px 0 32px 0;
+}
+
+.first-vid video {
+    width: 100%;
+    height: auto;
+    padding-bottom: 24px;
+}
+
+.contain-last {
+    display: flex;
+    width: 100%;
+}
+
+.container-last {
+    width: 60%;
+}
+
+.container-lastt {
+    width: 40%;
+    padding-left: 24px;
+    
+}
+
+.last-text h2 {
+    padding-bottom: 8px;
+}
+
+.last-text p {
+    padding-bottom: 32px;
+}
+
+
+
+.box-1 {
+    display: flex;
+    
+}
+
+.box-1 .picture-1 {
+    width: 35%;
+    height: auto;
+}
+
+.box-1 .text-1 {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-1 .picture-1 img {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+}
+
+.box-2 {
+    display: flex;
+    
+}
+
+.box-2 .picture-1 {
+    width: 35%;
+    height: auto;
+}
+
+.box-2 .text-1 {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.box-2 .picture-1 img {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+}
+/* footer */
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+

@@ -1,0 +1,179 @@
+/* Mobile */
+@media only screen and (max-width: 710px) {
+
+
+header {
+    position: relative;
+}
+
+header .mobile-nav {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+header .content {
+    display: none;
+}
+
+header .desktop {
+    display: none;
+}
+
+/* Main Mobile */
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#main .first-pic img {
+    padding: 0;
+}
+
+#main .first-pic {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+/* Second Mobile */
+
+.contain3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    padding-bottom: 32px;
+    
+
+}
+
+.third-pic {
+    display: none;
+}   
+
+.third-pic-mobile {
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.third-pic-mobile img {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+}
+
+.third-text {
+    width: 100%;
+    height: auto;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.contain2 {
+    display: none;
+}
+
+
+
+
+
+/* Third Mobile */
+
+.contain4 {
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+}
+
+.fourth-pic {
+    display: none;
+}
+
+.description-1 {
+    padding: 0;
+}
+
+.description-1 h1 {
+   padding: 16px 0 24px 16px;
+}
+
+
+.description-1 h2,h3 {
+    display: none;
+}
+
+#third {
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+/* Third Mobile */
+
+.container-4 {
+    background-color: rgb(160, 158, 158);
+    padding: 0;
+    
+}
+
+
+
+/* Last Mobile */
+
+.last-text {
+    display: none;
+}
+
+.box-1, .box-2 {
+    display: none;
+}
+
+
+.container-last {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
+
+.container-lastt {
+    display: none;
+}
+
+.links {
+    display: none;
+}
+
+.copy {
+    padding: 16px 0 16px 24px;
+}
+
+
+
+
+
+}
